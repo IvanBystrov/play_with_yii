@@ -48,7 +48,8 @@ return array(
 		),
 		*/
 		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+			'connectionString' => 'sqlite:/var/www/blog/protected/data/blog.db',
+            'tablePrefix' => 'tbl_'
 		),
 		// uncomment the following to use a MySQL database
 		/*
